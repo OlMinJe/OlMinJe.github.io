@@ -8,11 +8,12 @@
 
 .sidebar {
   @include clearfix();
-  display: inline-block;
-  max-width: 20%;
+  margin: 0 auto;
 
   @include breakpoint($large) {
     float: left;
+    display: inline-block;
+    max-width: 20%;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -126,7 +127,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  margin-bottom: $type-size-5;
+  margin-bottom: 1rem;
   // width: 36px;
   // height: 36px;
 
