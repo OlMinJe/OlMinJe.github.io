@@ -8,13 +8,6 @@
 
 .sidebar {
   @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
-  //   position: relative;
-  //   z-index: 10;
-  //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
-  // }
 
   @include breakpoint($large) {
     float: left;
@@ -29,9 +22,6 @@
 
     &.sticky {
       overflow-y: auto;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
@@ -122,8 +112,8 @@
 }
 
 /*
-   Author profile and links
-   ========================================================================== */
+     Author profile and links
+     ========================================================================== */
 
 .author__avatar {
   display: table-cell;
@@ -142,8 +132,8 @@
     max-width: 150px;
     max-height: 150px;
     margin: 0 auto;
-    object-fit: cover;
     border-radius: 10%;
+    object-fit: cover;
   }
 }
 
@@ -328,8 +318,8 @@
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+     Wide Pages
+     ========================================================================== */
 
 .wide .sidebar__right {
   margin-bottom: 1em;

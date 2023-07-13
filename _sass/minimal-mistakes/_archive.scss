@@ -33,7 +33,7 @@
     z-index: 10;
   }
 
-  a[rel="permalink"] {
+  a[rel='permalink'] {
     position: static;
   }
 }
@@ -56,8 +56,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
-  a[rel="permalink"]::before {
-    content: "";
+  a[rel='permalink']::before {
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -129,8 +129,8 @@
 }
 
 /*
-   List view
-   ========================================================================== */
+     List view
+     ========================================================================== */
 
 .list__item {
   .page__meta {
@@ -140,8 +140,8 @@
 }
 
 /*
-   Grid view
-   ========================================================================== */
+     Grid view
+     ========================================================================== */
 
 .archive {
   .grid__wrapper {
@@ -281,8 +281,8 @@
 }
 
 /*
-   Features
-   ========================================================================== */
+     Features
+     ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();
@@ -331,7 +331,7 @@
   }
 
   a.btn::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -357,7 +357,7 @@
     }
 
     a.btn::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -398,7 +398,7 @@
     }
 
     a.btn::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -442,7 +442,7 @@
     }
 
     a.btn::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -485,8 +485,8 @@
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+     Wide Pages
+     ========================================================================== */
 
 .wide {
   .archive {
