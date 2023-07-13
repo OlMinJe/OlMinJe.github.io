@@ -81,6 +81,11 @@ body {
   }
 }
 
+.page .h-entry {
+  max-width: 79%;
+  display: inline-block;
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
