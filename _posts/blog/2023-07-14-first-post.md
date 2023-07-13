@@ -60,7 +60,7 @@ last_modified_at: 2023-07-14
 
 
 <p align="center">
-  <img src="https://github.com/OlMinJe/OlMinJe.github.io/assets/118544134/9e08124a-ba59-4d1c-aeb5-a17c0447f84c" width="80%" height="80%" alt="박명수 소확행" /><br>
+  <img src="https://t1.daumcdn.net/news/202204/05/mydaily/20220405060006570vbeo.jpg" width="80%" height="80%" alt="박명수 소확행" /><br>
   <span>끝났다.. 이 길고 험한 길...</span><br>
   <span>앞으로 블로그를 위해 노력은 해보겠음</span>
 </p><br><br>
