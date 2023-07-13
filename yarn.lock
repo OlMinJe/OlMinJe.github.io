@@ -57,6 +57,11 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+breakpoint-sass@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/breakpoint-sass/-/breakpoint-sass-3.0.0.tgz#c24c4c627782dae5f4da4e884461bd0fb9befe41"
+  integrity sha512-qxJqSfTaOHI+RCGzvKWVRwwC2hMIaS0KV1b+asqWUFxdLv/yKNADF7AtT1uNnkt2VxSMZ2csM22CSc+Hez+EIg==
+
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
