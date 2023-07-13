@@ -61,7 +61,7 @@
   $green: green($color);
   $blue: blue($color);
 
-  $yiq: calc((($red * 299) + ($green * 587) + ($blue * 114)) / 1000);
+  $yiq: (0.299 * $red + 0.587 * $green + 0.114 * $blue);
   @if $yiq-debug {
     @debug $yiq, $threshold;
   }
