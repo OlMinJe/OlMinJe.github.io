@@ -8,6 +8,8 @@
 
 .sidebar {
   @include clearfix();
+  display: inline-block;
+  max-width: 20%;
 
   @include breakpoint($large) {
     float: left;
@@ -58,6 +60,13 @@
       width: 20px;
       height: 20px;
     }
+  }
+
+  .h-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 1%;
   }
 }
 
@@ -118,8 +127,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  // width: 36px;
+  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
