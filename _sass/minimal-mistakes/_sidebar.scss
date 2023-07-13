@@ -14,7 +14,6 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -127,6 +126,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
+  margin-bottom: $type-size-5;
   // width: 36px;
   // height: 36px;
 
@@ -138,19 +138,22 @@
 
   img {
     display: block;
+    min-width: 150px;
+    min-height: 150px;
     max-width: 150px;
     max-height: 150px;
     margin: 0 auto;
     border-radius: 10%;
     object-fit: cover;
+    opacity: 0.8;
   }
 }
 
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  // padding-left: 15px;
+  // padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -168,6 +171,7 @@
 
 .author__name {
   margin: 0;
+  opacity: 0.75;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -181,6 +185,7 @@
 
 .author__bio {
   margin: 0;
+  opacity: 0.75;
 
   @include breakpoint($large) {
     margin-top: 10px;
