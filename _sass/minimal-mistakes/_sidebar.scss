@@ -10,7 +10,7 @@
   @include clearfix();
   // margin: 0 auto;
   // display: inline-block;
-  max-width: 20%;
+  max-width: 15%;
 
   @include breakpoint($large) {
     float: left;
