@@ -8,8 +8,8 @@
 
 .sidebar {
   @include clearfix();
-  margin: 0 auto;
-  display: inline-block;
+  // margin: 0 auto;
+  // display: inline-block;
   max-width: 20%;
 
   @include breakpoint($large) {
