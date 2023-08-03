@@ -7,7 +7,5 @@ logs
 node_modules
 bower_components
 yarn.lock
-package.json
-package-lock.json
 public/*
 src/*
