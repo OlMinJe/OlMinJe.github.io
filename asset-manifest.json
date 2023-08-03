@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0169280.css",
-    "main.js": "/static/js/main.6aa890ed.js",
-    "static/media/github.svg": "/static/media/github.4a09d24e8338b86374289d39c679f55e.svg",
-    "index.html": "/index.html",
-    "main.d0169280.css.map": "/static/css/main.d0169280.css.map",
-    "main.6aa890ed.js.map": "/static/js/main.6aa890ed.js.map"
+    "main.css": "//olminje.github.io/static/css/main.d0169280.css",
+    "main.js": "//olminje.github.io/static/js/main.e1d6c667.js",
+    "static/media/github.svg": "//olminje.github.io/static/media/github.4a09d24e8338b86374289d39c679f55e.svg",
+    "index.html": "//olminje.github.io/index.html",
+    "main.d0169280.css.map": "//olminje.github.io/static/css/main.d0169280.css.map",
+    "main.e1d6c667.js.map": "//olminje.github.io/static/js/main.e1d6c667.js.map"
   },
   "entrypoints": [
     "static/css/main.d0169280.css",
-    "static/js/main.6aa890ed.js"
+    "static/js/main.e1d6c667.js"
   ]
 }
