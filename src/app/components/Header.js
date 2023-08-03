@@ -53,8 +53,10 @@ const Header = () => {
   return (
     <>
       <HedaerStyled.Wrap>
-        <Logo />
-        <Menu />
+        <div>
+          <Logo />
+          <Menu />
+        </div>
       </HedaerStyled.Wrap>
     </>
   );

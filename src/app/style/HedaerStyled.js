@@ -2,17 +2,22 @@ import github from 'app/asset/image/github.svg';
 import { styled } from 'styled-components';
 
 export const Wrap = styled.div`
-  display: flex;
-  justify-content: space-between;
   height: 100px;
   padding: 0 20px;
   background-color: #eff4fd;
   border: 3px solid #4d85f4;
+  > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 `;
 
 export const LogoStyle = styled.div`
   display: flex;
   align-items: center;
+  height: 100px;
   span {
     margin-left: 1em;
     font-size: 1.4rem;

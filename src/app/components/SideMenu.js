@@ -24,7 +24,7 @@ export const Menu = () => {
     <>
       <SideMenuStyled.MenuStyle>
         <SideMenuStyled.Title>MENU</SideMenuStyled.Title>
-        <p>
+        <section>
           <SideMenuStyled.SvgStyle>
             <svg xmlns="http://www.w3.org/2000/svg" height="96" fill="none" viewBox="0 0 231 96">
               <path
@@ -40,7 +40,7 @@ export const Menu = () => {
             </li>
           </SideMenuStyled.UlStyle>
           <SideMenuStyled.Comment>Comming Soon...</SideMenuStyled.Comment>
-        </p>
+        </section>
       </SideMenuStyled.MenuStyle>
     </>
   );
