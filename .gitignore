@@ -1,1 +1,9 @@
 /node_modules/
+*.json
+*.ico
+*.html
+*.css
+*.map
+*.js
+*.txt
+*.svg

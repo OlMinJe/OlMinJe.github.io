@@ -14,7 +14,7 @@ export const BioStyle = styled.ul`
 `;
 
 export const MenuStyle = styled.div`
-  p {
+  section {
     min-height: 45rem;
     background-color: #dfeaff;
     box-shadow: 0px -2px 3px 0px #dfeaf2ad;
